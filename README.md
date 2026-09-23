@@ -1,33 +1,28 @@
-VulnPulse is a lightweight, modular security assessment orchestrator built in Python 3. It automates initial target reconnaissance, service enumeration, HTTP security header auditing, and dynamic risk scoring into a single unified pipeline.
+# VulnPulse 🔍
 
-📖 Documentation & User Guide
+<p align="center">
+  <b>An automated multi-threaded vulnerability orchestrator and triage engine built for security professionals and penetration testers.</b>
+</p>
 
-For complete installation steps, architecture breakdowns, usage instructions, and sample execution outputs, please refer to the included VulnPulse User Guide & Documentation (PDF).
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue.svg" alt="Python Version">
+  <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
+  <img src="https://img.shields.io/badge/License-MIT-orange.svg" alt="License">
+</p>
 
-🚀 Architecture
+---
 
-vulnpulse/
-├── modules/
-│   ├── __init__.py
-│   ├── recon.py       # Automated Nmap execution and XML tree parsing
-│   └── http_audit.py  # HTTPS/HTTP fallback and security header analysis
-├── utils/
-│   └── reporter.py    # Aggregates telemetry, calculates risk scores, and exports JSON reports
-└── main.py            # Core engine and argument parsing controller
+## 🚀 Overview
 
+**VulnPulse** is a lightweight, modular security assessment orchestrator designed to streamline initial target reconnaissance and application hardening checks. Instead of manually executing discrete tools, parsing messy logs, and compiling notes, VulnPulse automates the entire pipeline into a single unified execution flow—delivering structured terminal output and automated JSON reporting artifacts.
 
-⚙️ Quick Start
+---
 
-Ensure Python 3, Nmap, and dependencies are installed:
+## 📖 Documentation & Tutorial
 
-pip install requests
+For complete installation steps, architecture breakdowns, usage instructions, and sample execution output, please refer to the [VulnPulse User Guide PDF](./VulnPulse_User_Guide.pdf) included in this repository.
 
+---
 
-Run the orchestrator against an authorized target:
-
-python3 main.py -t scanme.nmap.org
-
-
-🛡️ License
-
-For educational and authorized security auditing purposes only.
+## 🛡️ Disclaimer
+This tool is created for educational purposes, defensive security auditing, and authorized penetration testing only. Do not run against targets without explicit prior written consent.
