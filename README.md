@@ -1,5 +1,3 @@
-VulnPulse 🔍
-
 VulnPulse is a lightweight, modular security assessment orchestrator built in Python 3. It automates initial target reconnaissance, service enumeration, HTTP security header auditing, and dynamic risk scoring into a single unified pipeline.
 
 📖 Documentation & User Guide
