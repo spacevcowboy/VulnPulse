@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+scan_results.xml
+report_*.json
